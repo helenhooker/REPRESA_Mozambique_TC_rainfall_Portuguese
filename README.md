@@ -21,7 +21,7 @@ Vamos usar o **Google Colab** para esta formação. Não precisa de instalar nad
 
 Clique no emblema abaixo para abrir o caderno de formação:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/helenhooker/REPRESA_Mozambique_TC_rainfall/blob/main/Cyclone_rainfall_colab_en.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/helenhooker/REPRESA_Mozambique_TC_rainfall/blob/main/Cyclone_rainfall_colab_pt.ipynb)
 
 ### Passo 2: Guardar a Sua Própria Cópia
 
