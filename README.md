@@ -1,94 +1,94 @@
-# ☔ REPRESA Mozambique: TC Rainfall Analysis & Evaluation
+# ☔ REPRESA Moçambique: Análise e Avaliação de Precipitação de Ciclones Tropicais
 
-Training materials for analysing and evaluating Tropical Cyclone rainfall datasets in Mozambique.
+Materiais de formação para análise e avaliação de conjuntos de dados de precipitação de Ciclones Tropicais em Moçambique.
 
-**Developed by:** Dr Helen Hooker, University of Reading  
-**Project:** REPRESA
-
----
-
-## 🚀 How to Use These Notebooks
-
-We will be using **Google Colab** for this training. You do not need to install anything on your computer.
-
-### Before You Start:
-✅ **You need a Google account** (free Gmail account)  
-✅ Log into [Google Drive](https://drive.google.com) before the workshop
+**Desenvolvido por:** Dra. Helen Hooker, Universidade de Reading  
+**Projecto:** REPRESA
 
 ---
 
-### Step 1: Open the Notebook
+## 🚀 Como Usar Estes Cadernos
 
-Click the badge below to launch the training notebook:
+Vamos usar o **Google Colab** para esta formação. Não precisa de instalar nada no seu computador.
+
+### Antes de Começar:
+✅ **Precisa de uma conta Google** (conta Gmail gratuita)  
+✅ Entre no [Google Drive](https://drive.google.com) antes do workshop
+
+---
+
+### Passo 1: Abrir o Caderno
+
+Clique no emblema abaixo para abrir o caderno de formação:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/helenhooker/REPRESA_Mozambique_TC_rainfall/blob/main/Cyclone_rainfall_colab_en.ipynb)
 
-### Step 2: Save Your Own Copy
+### Passo 2: Guardar a Sua Própria Cópia
 
-**⚠️ Important:** The notebook opens in **read-only mode**. To edit and save your work:
+**⚠️ Importante:** O caderno abre em **modo só de leitura**. Para editar e guardar o seu trabalho:
 
-1. Click **"Copy to Drive"** at the top of the notebook (or File → Save a copy in Drive)
-2. Your personal copy will open automatically
-3. All your changes will auto-save to your Google Drive
+1. Clique em **"Copiar para o Drive"** no topo do caderno (ou Ficheiro → Guardar uma cópia no Drive)
+2. A sua cópia pessoal abrirá automaticamente
+3. Todas as suas alterações serão guardadas automaticamente no seu Google Drive
 
-**💡 Tip:** Your copy will be saved in Google Drive under "Colab Notebooks" folder
-
----
-
-### Step 3: Choose a Storm and Download Data
-
-The essential rainfall data for this workshop (Cyclones ANA, FREDDY, etc.) is hosted privately.
-
-1. Run the first 3 code cells in your notebook
-2. Select the storm you wish to analyse (e.g., `FREDDY`)
-3. The data for your chosen storm will download automatically
+**💡 Dica:** A sua cópia será guardada no Google Drive na pasta "Colab Notebooks"
 
 ---
 
-## 📚 Workshop Content Overview
+### Passo 3: Escolher uma Tempestade e Descarregar Dados
 
-This workshop focuses on evaluating the **CCAM rainfall dataset** against other commonly used rainfall products including:
-- **ERA5** (ECMWF Reanalysis)
-- **GPM IMERG** (Satellite rainfall)
-- **Gauge observations** (Local rain gauges)
+Os dados essenciais de precipitação para este workshop (Ciclones ANA, FREDDY, etc.) estão alojados de forma privada.
 
-Participants will investigate rainfall from four impactful tropical cyclones:
+1. Execute as primeiras 3 células de código no seu caderno
+2. Seleccione a tempestade que deseja analisar (ex: `FREDDY`)
+3. Os dados da tempestade escolhida serão descarregados automaticamente
+
+---
+
+## 📚 Visão Geral do Conteúdo do Workshop
+
+Este workshop concentra-se na avaliação do **conjunto de dados de precipitação CCAM** em comparação com outros produtos de precipitação comummente usados, incluindo:
+- **ERA5** (Reanálise ECMWF)
+- **GPM IMERG** (Precipitação por satélite)
+- **Observações de pluviómetros** (Pluviómetros locais)
+
+Os participantes investigarão a precipitação de quatro ciclones tropicais impactantes:
 - **CHEDZA** (2015)
 - **ANA** (2022)
 - **GOMBE** (2022)
 - **FREDDY** (2023)
 
-### 🎯 Learning Outcomes
+### 🎯 Resultados de Aprendizagem
 
-By the end of this workshop, you will be able to:
+No final deste workshop, será capaz de:
 
-* **Compare** CCAM rainfall to existing rainfall datasets both spatially and over time
-* **Investigate** storms, regions, and time periods of interest for rainfall characteristics
-* **Develop** data visualization and evaluation skills using Python and Jupyter Notebooks
-* **Gain experience** with atmospheric science data formats (NetCDF) and Python libraries (Xarray, Pandas, Matplotlib, Cartopy)
+* **Comparar** a precipitação CCAM com conjuntos de dados de precipitação existentes, tanto espacialmente como ao longo do tempo
+* **Investigar** tempestades, regiões e períodos de tempo de interesse para características de precipitação
+* **Desenvolver** competências de visualização e avaliação de dados usando Python e Jupyter Notebooks
+* **Ganhar experiência** com formatos de dados de ciências atmosféricas (NetCDF) e bibliotecas Python (Xarray, Pandas, Matplotlib, Cartopy)
 
-### 📊 Data Sources
+### 📊 Fontes de Dados
 
-* **CCAM:** Conformal-Cubic Atmospheric Model (high-resolution and low-resolution versions)
+* **CCAM:** Conformal-Cubic Atmospheric Model (versões de alta e baixa resolução)
 * **ERA5:** ECMWF Reanalysis v5
 * **IMERG:** Integrated Multi-satellitE Retrievals for GPM
-* **Gauge Data:** Local rain gauge observations
+* **Dados de Pluviómetros:** Observações de pluviómetros locais
 
 ---
 
-## 🆘 Troubleshooting
+## 🆘 Resolução de Problemas
 
-**Problem:** Can't save my changes  
-**Solution:** Make sure you clicked "Copy to Drive" at the top of the notebook
+**Problema:** Não consigo guardar as minhas alterações  
+**Solução:** Certifique-se de que clicou em "Copiar para o Drive" no topo do caderno
 
-**Problem:** Lost my notebook  
-**Solution:** Check your Google Drive → "Colab Notebooks" folder
+**Problema:** Perdi o meu caderno  
+**Solução:** Verifique o seu Google Drive → pasta "Colab Notebooks"
 
-**Problem:** Data download fails  
-**Solution:** Re-run the data download cells or contact the instructor
+**Problema:** O descarregamento de dados falha  
+**Solução:** Execute novamente as células de descarregamento de dados ou contacte o instrutor
 
 ---
 
-## 📧 Contact
+## 📧 Contacto
 
-Questions? Contact: helen.hooker@reading.ac.uk
+Questões? Contacte: helen.hooker@reading.ac.uk
